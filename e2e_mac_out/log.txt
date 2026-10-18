@@ -1,0 +1,46 @@
+[   0.01] macOS 15.7.9 screen (1024, 768)
+[  14.27] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[  14.60] measured blob offset (not applied): -2 -26
+[  26.50] PASS JPG → PNG                        9.8s  D-Photo.png · 2400×1600
+[  28.41] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[  38.36] PASS JPG → WEBP                       9.4s  D-Photo.webp · 2400×1600
+[  40.73] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[  51.13] PASS JPG → HEIC                       9.9s  D-Photo.heic · 2400×1600
+[  53.26] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[  62.82] PASS JPG → PDF                        9.0s  D-Photo.pdf · 1 page(s)
+[  64.63] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[  74.46] PASS PNG → JPG                        9.3s  D-Graphic.jpg · 800×533
+[  76.19] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[  86.12] PASS PDF → JPG (3 pages)              9.4s  3 × .jpg
+[  88.10] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[  97.69] PASS PDF → TXT                        9.1s  D-Report.txt
+[  99.51] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[ 109.56] PASS DOCX → PDF                       9.5s  D-Letter.pdf · 1 page(s)
+[ 111.33] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[ 121.37] PASS PDF Split                        9.5s  3 PDFs
+[ 123.20] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[ 133.68] PASS PDF Rotate                       9.9s  all pages at 90°
+[ 135.57] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[ 146.03] PASS PDF Compress                     9.9s  227 KB → 108 KB
+[ 148.77] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[ 162.09] PASS Merge 2 PDFs                    12.8s  5 pages
+[ 164.03] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[ 191.50] Traceback (most recent call last):
+  File "/Users/runner/work/FileShift/FileShift/demo/e2e_mac.py", line 289, in run
+    raise AssertionError("no output file appeared")
+AssertionError: no output file appeared
+
+[ 191.60] FAIL Compress (window, Enter)        27.0s  AssertionError: no output file appeared
+[ 193.61] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[ 206.11] PASS Resize 50% (window, Enter)      12.0s  2400×1600 → 1200×800
+[ 207.94] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[ 235.51] Traceback (most recent call last):
+  File "/Users/runner/work/FileShift/FileShift/demo/e2e_mac.py", line 289, in run
+    raise AssertionError("no output file appeared")
+AssertionError: no output file appeared
+
+[ 235.59] FAIL Add BG (window, Enter)          27.1s  AssertionError: no output file appeared
+[ 237.80] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[ 250.71] PASS Metadata: remove all (Enter)    12.4s  0 metadata fields left
+[ 252.82] icon positions (screen): {'D-Photo.jpg': (140, 148), 'D-Report.pdf': (140, 263), 'D-Appendix.pdf': (140, 378), 'D-Letter.docx': (140, 493), 'D-Graphic.png': (140, 608)}
+[ 253.88] DONE 14/16
