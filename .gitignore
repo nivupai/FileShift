@@ -4,7 +4,6 @@ build/
 dist/
 *.spec.bak
 .pytest_cache/
+.ruff_cache/
 .venv/
-.venv/
-__pycache__/
-*.pyc
+*.egg-info/

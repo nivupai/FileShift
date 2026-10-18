@@ -208,8 +208,6 @@ jobs:
             **First launch (until FileShift is notarized by Apple):** open FileShift once and click **Done** on the warning, then go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** next to "FileShift was blocked", and confirm. You only do this once.
             Or in Terminal: `xattr -dr com.apple.quarantine /Applications/FileShift.app`
 
-            Enjoying FileShift? Tips are welcome: [Cash App $AtikaKadesha](https://cash.app/$AtikaKadesha) ♥
-
             Built automatically from commit ${{ github.sha }}.
           files: out/*
 
