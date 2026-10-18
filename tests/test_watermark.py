@@ -1,4 +1,4 @@
-"""Tests for the Watermark tool (new in fileshift-plus, not in upstream FileShift)."""
+"""Tests for the Watermark tool."""
 from pathlib import Path
 
 import pytest

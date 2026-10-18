@@ -1,4 +1,4 @@
-"""Tool window: Watermark. New in the fileshift-plus fork (not in upstream FileShift)."""
+"""Tool window: Watermark."""
 from __future__ import annotations
 
 from pathlib import Path

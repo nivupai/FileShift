@@ -1,22 +1,6 @@
 # FileShift
 
-A reproduction of DragShift — renamed FileShift — that extends the original app.
 Convert and edit files on **Windows and Mac** with a liquid-glass radial menu. Start dragging any file, press **Shift**, and drop it on a slice.
-
-**What's different from the original DragShift:**
-- **New tool: Watermark** — add a text watermark (any colour, opacity, size, corner/centre
-  placement, or tiled across the whole image) to any image. See
-  [`fileshift/imaging.py`](fileshift/imaging.py)'s `apply_watermark`/`Watermark` and
-  [`fileshift/tools/watermark.py`](fileshift/tools/watermark.py).
-- **Refactored `tools.py`** (was 1,426 lines in one file) into
-  [`fileshift/tools/`](fileshift/tools), one module per tool (`crop.py`, `addbg.py`,
-  `annotate.py`, `redact.py`, `edit.py`, `metadata.py`, `compress.py`, `resize.py`,
-  `protect.py`, `watermark.py`), with shared widgets/base class in `_shared.py`. The public
-  API (`fileshift.tools.CropWindow`, etc.) is unchanged.
-- **Packaging**: added [`pyproject.toml`](pyproject.toml) (installable package, `fileshift`
-  console entry point, `ruff` lint config) alongside the existing `requirements.txt` and
-  PyInstaller spec.
-- **More tests**: `tests/test_watermark.py` covers the new tool's pure-logic functions.
 
 ![FileShift radial menu and Add BG editor](docs/preview.png)
 
